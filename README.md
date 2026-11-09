@@ -1,2 +1,2 @@
-# sudoku_parser
-A program to handle the sudoku question.
+# 解析数独
+可以解决数独问题，采用了边做边猜的思想
