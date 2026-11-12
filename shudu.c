@@ -215,8 +215,8 @@ int main(int argc, char *argv[]) {
 		return -1;
 	}
 	
-	TTF_Font *font = TTF_OpenFont("/system/fonts/DroidSansChinese.ttf", 32);
-	TTF_Font *fnum = TTF_OpenFont("/system/fonts/SmartZawgyi.ttf", 96);
+	TTF_Font *font = TTF_OpenFont("./DroidSansChinese.ttf", 32);
+	TTF_Font *fnum = TTF_OpenFont("./SmartZawgyi.ttf", 96);
 	SDL_RenderSetLogicalSize(renderer, 1080, 1800);
 	
 	uint8_t layout[9][9], parsing = 0;
